@@ -14,7 +14,7 @@ const DivWrapper = styled.div`
 
 const DivUpper = styled.div`
     width: 100%;
-    height: ${props => props.isHighlighted ? '60px' : '50px'};
+    height: 50px;
     display: flex;   
     align-items: center;
     justify-content: center;
@@ -64,7 +64,7 @@ const TextMonth = styled.span`
 
 const DivSpeed = styled.div`
     width: 100%;
-    height: ${props => props.isHighlighted ? '40px' : '30px'};
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +78,7 @@ const DivSpeed = styled.div`
 
 const DivLower = styled.div`
     width: 100%;
-    height: ${props => props.isHighlighted ? '60px' : '50px'};
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
